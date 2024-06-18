@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Manison+SemiExpanded&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #FF11A8;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+section {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 20px 40px;
+    background-color: #FF11A8;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background-color: #e10e90;
+    transform: scale(1.05);
+}
+
+.button:active {
+    background-color: #c00c7a;
+    transform: scale(0.95);
+}
+        .button img {
+            margin-right: 8px;
+            width: 40px; /* Ajuste o tamanho da imagem conforme necessário */
+            height: 40px;
+        }
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 100%;
+    display: none;
+}
+
+.carousel img.active {
+    display: block;
+}
+
+footer {
+    margin: 20px 0;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+/* Estilo do botão */
+.btn {
+  background-color: #4CAF50; /* Verde */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* Definição da animação de tremor */
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+/* Aplicando a animação ao botão */
+.shake {
+  animation: shake 2.0s; /* Duração da animação */
+  animation-iteration-count: infinite; /* Número de repetições */
+  animation-delay: 2.0s; /* Atraso antes da animação começar */
+}
+
+
+   ``
+        
+       
+
+    
